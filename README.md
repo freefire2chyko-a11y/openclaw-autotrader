@@ -1,12 +1,11 @@
-# OpenClaw AutoTrader
+![30-Day OpenClaw AutoTrader Challenge](./docs/assets/challenge-banner.svg)
 
-Public daily trading journal for an OpenClaw-operated Tiger Pocket auto-trading workflow.
-OpenClaw 驱动的 Tiger Pocket 自动交易公开交易日报仓库。
+# 30-Day OpenClaw AutoTrader Challenge
 
-Last synced by decision / 决策触发同步时间: `2026-03-11 20:53:43 CST`
+Watch a crawfish-sized 5000 HKD account take on 30 public market days in U.S. stocks.
+看一只从 5000 HKD 起步的“小龙虾账户”，连续 30 天在美股市场公开操盘。
 
-A small-capital live trading journal with public snapshots, daily review, and continuous tracking.
-一个面向公众持续更新的小资金自动交易实盘日志。
+Last synced by decision / 决策触发同步时间: `2026-03-11 21:02:53 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -16,15 +15,24 @@ A small-capital live trading journal with public snapshots, daily review, and co
 - small-capital live deployment starting from `5000 HKD` / 从 `5000 HKD` 起步的小资金实盘实验
 - bilingual public journal built for long-term tracking / 适合长期追踪的中英双语公开日志
 
+## Challenge Dashboard / 首页进度看板
+
+| Metric | Value |
+| --- | --- |
+| Day / 当前天数 | `2 / 30` (6.7%) |
+| Starting capital / 起始资金 | `5000 HKD` |
+| Current equity / 当前权益 | HKD 4,910.69 |
+| Net PnL / 累计盈亏 | -HKD 89.31 |
+| Open positions / 当前持仓标的 | 2 open: `BABA`, `RIVN` |
+| Latest move / 最新动作 | BUY `RIVN` |
+
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-11 20:53:43 CST (UTC+08:00)
-- Current holdings / 当前持仓:
-  - `BABA` x 0.938 | value HKD 1,004.31 | floating HKD -6.56
-  - `RIVN` x 30.187 | value HKD 3,906.38 | floating HKD -77.68
+- Updated / 更新时间: 2026-03-11 21:02:53 CST (UTC+08:00)
+- Current book / 当前组合: `BABA`, `RIVN`
+- Floating PnL / 当前浮动盈亏: -HKD 84.24
 - Latest decision / 最新决策: 未调用
-- Latest trade / 最新交易: 2026-03-11 03:13:03 CST (UTC+08:00) | BUY RIVN | qty 30.187
-- Daily tokens / 当日 Token: total 54731, gpt-5.4 33615 (61.4%)
+- Next milestone / 下一阶段: Day `3` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-11.md](./docs/public-monitor/2026/2026-03-11.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-03-11.md](./docs/daily-reports/2026/2026-03-11.md)
 
