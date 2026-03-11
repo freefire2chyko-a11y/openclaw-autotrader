@@ -5,15 +5,13 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-11 22:44:30 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-11 23:07:05 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
-- real position snapshots instead of backtest screenshots / 不是回测截图，而是真实持仓快照
-- continuous public updates when new market decisions are made / 有新市场决策时持续公开更新
-- daily reports covering trades, no-trade windows, and review notes / 每日公开成交、观望时段与复盘记录
-- small-capital live deployment starting from `5000 HKD` / 从 `5000 HKD` 起步的小资金实盘实验
-- bilingual public journal built for long-term tracking / 适合长期追踪的中英双语公开日志
+- a real 30-day live challenge, not backtest theater / 一个真实连续 30 天的实盘挑战，不是回测表演
+- public updates whenever decisions change, plus a daily recap / 决策一变就公开更新，并且每天有复盘
+- a bilingual `5000 HKD` experiment built to follow from day 1 to day 30 / 一个从 `5000 HKD` 起步、适合从 Day 1 追到 Day 30 的双语公开实验
 
 ## Challenge Dashboard / 首页进度看板
 
@@ -21,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-03-11 22:44:30 CST`
 | --- | --- |
 | Day / 当前天数 | `2 / 30` (6.7%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,904.12 |
-| Net PnL / 累计盈亏 | -HKD 95.88 |
+| Current equity / 当前权益 | HKD 4,907.13 |
+| Net PnL / 累计盈亏 | -HKD 92.87 |
 | Open positions / 当前持仓标的 | 1 open: `BABA` |
 | Latest move / 最新动作 | [US] HOLD 无 |
 
@@ -32,9 +30,9 @@ Last synced by decision / 决策触发同步时间: `2026-03-11 22:44:30 CST`
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-11 22:44:30 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-11 23:07:04 CST (UTC+08:00)
 - Current book / 当前组合: `BABA`
-- Floating PnL / 当前浮动盈亏: -HKD 15.29
+- Floating PnL / 当前浮动盈亏: -HKD 12.29
 - Latest decision / 最新决策: [US] HOLD 无
 - Next milestone / 下一阶段: Day `3` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-11.md](./docs/public-monitor/2026/2026-03-11.md)
