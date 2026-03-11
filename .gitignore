@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+node_modules/
+dist/
+build/
+*.log
+*.zip
+logs/**
+!logs/README.md
+!logs/.gitkeep
+configs/local/
