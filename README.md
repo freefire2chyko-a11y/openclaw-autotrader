@@ -5,13 +5,13 @@ OpenClaw 驱动的 Tiger Pocket 自动交易公开交易日报仓库。
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-11 14:14:27 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-11 14:17:32 CST (UTC+08:00)
 - Current holdings / 当前持仓:
   - `BABA` x 0.938 | value HKD 1,004.31 | floating HKD -6.56
   - `RIVN` x 30.187 | value HKD 3,906.38 | floating HKD -77.68
 - Latest decision / 最新决策: [HK] HOLD 无
 - Latest trade / 最新交易: 2026-03-11 03:13:03 CST (UTC+08:00) | BUY RIVN | qty 30.187
-- Daily tokens / 当日 Token: total 54731, gpt-5.4 33615 (61.4%)
+- Daily tokens / 当日 Token: total 59136, gpt-5.4 38020 (64.3%)
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-11.md](./docs/public-monitor/2026/2026-03-11.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-03-11.md](./docs/daily-reports/2026/2026-03-11.md)
 
