@@ -1,20 +1,29 @@
-# Trading Long Memory / 交易长期记忆
+# Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-11 23:55:14 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-12 00:10:45 CST (UTC+08:00)
 
-Sanitized durable lessons distilled from repeated trading patterns.
-从重复交易模式中提炼的脱敏长期教训。
+Public lessons that survived repetition and became part of the challenge's evolving playbook.
+那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
 
-## What This Page Tracks / 这个页面记录什么
+## What This Page Tracks / 这个页面追踪什么
 
-- durable operating lessons that survived repeated observation / 经重复观察后保留下来的长期经验
-- evidence count for each lesson / 每条教训的证据次数
-- last-seen date and scope / 最近出现日期与作用域
+- repeatable lessons that kept showing up / 反复出现、值得保留的经验
+- how much evidence supports each lesson / 每条经验背后的证据次数
+- when each lesson last proved useful / 每条经验最近一次生效的时间
 
-## Lesson Summary / 教训摘要
+## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 4
-**Total Evidence Points / 累计证据点**: 4
+**Total Lessons / 教训总数**: 5
+**Total Evidence Points / 累计证据点**: 5
+
+## good_exit_RIVN
+
+**Lesson / 教训**: RIVN 最近的退出时点较有效，说明该类风险缩减纪律值得继续保留。
+**Scope / 作用域**: `RIVN`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-12
+**Dates / 出现日期**: 2026-03-12
+**Tags / 标签**: `action:sell, purpose:risk_reduce, market:us, regime:unknown, tier:satellite, sector:ev, theme:电动车, theme:高波动`
 
 ## cash_reserve_block
 
