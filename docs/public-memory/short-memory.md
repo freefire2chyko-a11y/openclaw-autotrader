@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-03-12 13:05:45 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-12 13:16:30 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -27,6 +27,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | End Equity / 结束权益 | N/A |
 | End Net PnL / 结束累计盈亏 | N/A |
 | End Unrealized PnL / 结束未实现盈亏 | N/A |
+| Trade Episodes / 交易片段 | 0 |
 
 **Reconciliation / 对账状态**: 历史数据未严格对账
 
@@ -47,6 +48,13 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | End Equity / 结束权益 | HKD 4,899.87 |
 | End Net PnL / 结束累计盈亏 | HKD -100.13 |
 | End Unrealized PnL / 结束未实现盈亏 | HKD -19.55 |
+| Trade Episodes / 交易片段 | 8 |
+
+**Recent Trade Episodes / 最近交易片段**
+
+- SELL RIVN | plan_only | edge=+62.38% | conf=0.95 | q=+0.45 | one_hour sell_neutral +0.45%
+- SELL RIVN | filled | edge=+62.35% | conf=0.95 | q=+0.45 | one_hour sell_neutral +0.45%
+- SELL RIVN | filled | edge=+62.35% | conf=0.95 | q=+0.45 | one_hour sell_neutral +0.45%
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
@@ -81,6 +89,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | End Equity / 结束权益 | HKD 4,909.73 |
 | End Net PnL / 结束累计盈亏 | HKD -90.27 |
 | End Unrealized PnL / 结束未实现盈亏 | HKD -10.67 |
+| Trade Episodes / 交易片段 | 0 |
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
