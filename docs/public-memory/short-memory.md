@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-03-13 21:37:50 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-14 00:03:48 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -114,7 +114,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-03-13
 
-**Summary / 摘要**: 2026-03-13 共 27 次计划、0 次成交、1 次换汇记录，对账权益 HKD 4,910.41，对账累计盈亏 HKD -89.59，对账未实现盈亏 HKD -8.33。
+**Summary / 摘要**: 2026-03-13 共 27 次计划、0 次成交、1 次换汇记录，对账权益 HKD 4,898.59，对账累计盈亏 HKD -101.41，对账未实现盈亏 HKD -20.15。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
@@ -122,11 +122,11 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 1 |
-| Benchmarks / 基准快照 | 21 |
+| Benchmarks / 基准快照 | 22 |
 | Latest Decision / 最新决策 | [US] HOLD 无 |
-| End Equity / 结束权益 | HKD 4,910.41 |
-| End Net PnL / 结束累计盈亏 | HKD -89.59 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD -8.33 |
+| End Equity / 结束权益 | HKD 4,898.59 |
+| End Net PnL / 结束累计盈亏 | HKD -101.41 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD -20.15 |
 | Trade Episodes / 交易片段 | 0 |
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
@@ -141,5 +141,31 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 - **hk_symbol_must_be_normalized**: Tiger 港股行情和下单必须先把本地 `.HK` symbol 规范化成 Tiger 五位 broker code（如 0388.HK -> 00388），否则 quote/contract lookup 会回零值或报不支持交易。
   - Tags / 标签: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
+
+---
+
+## 2026-03-14
+
+**Summary / 摘要**: 2026-03-14 共 1 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,887.59，对账累计盈亏 HKD -112.41，对账未实现盈亏 HKD -20.37。
+
+| Metric / 指标 | Value / 数值 |
+| --- | --- |
+| Decision Count / 决策次数 | 1 |
+| Order Submissions / 提交订单 | 0 |
+| Filled Trades / 成交笔数 | 0 |
+| FX Events / 换汇记录 | 0 |
+| Benchmarks / 基准快照 | 6 |
+| Latest Decision / 最新决策 | [US] HOLD 无 |
+| End Equity / 结束权益 | HKD 4,887.59 |
+| End Net PnL / 结束累计盈亏 | HKD -112.41 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD -20.37 |
+| Trade Episodes / 交易片段 | 0 |
+
+**Reconciliation / 对账状态**: 已通过 Tiger API 对账
+
+**Lessons Learned / 提取教训**
+
+- **event_market_gate_first**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
+  - Tags / 标签: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ---

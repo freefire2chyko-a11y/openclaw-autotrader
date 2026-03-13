@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-13 21:37:50 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-14 00:03:48 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,8 +13,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 7
-**Total Evidence Points / 累计证据点**: 12
+**Total Lessons / 教训总数**: 8
+**Total Evidence Points / 累计证据点**: 13
 
 ## sync_error_must_be_sanitized
 
@@ -42,6 +42,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-13
 **Dates / 出现日期**: 2026-03-12, 2026-03-13
 **Tags / 标签**: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
+
+## event_market_gate_first
+
+**Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
+**Scope / 作用域**: `event_layer`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-14
+**Dates / 出现日期**: 2026-03-14
+**Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## cash_reserve_block
 
