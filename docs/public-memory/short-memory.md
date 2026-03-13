@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-03-14 00:03:48 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-14 00:44:53 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -146,24 +146,27 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-03-14
 
-**Summary / 摘要**: 2026-03-14 共 1 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,887.59，对账累计盈亏 HKD -112.41，对账未实现盈亏 HKD -20.37。
+**Summary / 摘要**: 2026-03-14 共 3 次计划、0 次成交、0 次换汇记录，但未通过 Tiger API 对账，收益/盈亏数据不纳入复盘结论与交易记忆。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 1 |
+| Decision Count / 决策次数 | 3 |
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 6 |
-| Latest Decision / 最新决策 | [US] HOLD 无 |
-| End Equity / 结束权益 | HKD 4,887.59 |
-| End Net PnL / 结束累计盈亏 | HKD -112.41 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD -20.37 |
+| Latest Decision / 最新决策 | [HK] 跳过决策 |
+| End Equity / 结束权益 | N/A |
+| End Net PnL / 结束累计盈亏 | N/A |
+| End Unrealized PnL / 结束未实现盈亏 | N/A |
 | Trade Episodes / 交易片段 | 0 |
 
-**Reconciliation / 对账状态**: 已通过 Tiger API 对账
+**Reconciliation / 对账状态**: 未通过 Tiger API 对账
 
 **Lessons Learned / 提取教训**
+
+- **skipped_decision_still_needs_context**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
+  - Tags / 标签: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 - **event_market_gate_first**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
   - Tags / 标签: `event:market-gate, risk:macro-politics, memory:event-layer`
