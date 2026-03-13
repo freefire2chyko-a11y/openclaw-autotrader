@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-14 01:54:20 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-14 02:56:39 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-03-14 01:54:20 CST`
 | --- | --- |
 | Day / 当前天数 | `5 / 30` (16.7%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,887.63 |
-| Net PnL / 累计盈亏 | -HKD 112.37 |
+| Current equity / 当前权益 | HKD 4,891.25 |
+| Net PnL / 累计盈亏 | -HKD 108.75 |
 | Open positions / 当前持仓标的 | 1 open: `BABA` |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-14 01:54:18 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-14 02:56:37 CST (UTC+08:00)
 - Current book / 当前组合: `BABA`
-- Floating PnL / 当前浮动盈亏: -HKD 20.33
+- Floating PnL / 当前浮动盈亏: -HKD 16.71
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `6` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-14.md](./docs/public-monitor/2026/2026-03-14.md)
@@ -51,19 +51,19 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 ## Today's Trading Rules & Adjustments / 今日交易规则与策略调整
 
 - Execution objective / 执行目标: deploy pocket capital only when the expected edge remains meaningfully above fees and sizing limits, with no leverage and no shorting. 仅在预期优势明显高于手续费且满足仓位上限时动用口袋资金，不加杠杆、不做空。
-- Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 4 trade(s) per hour, with a 3% cash reserve and HKD 260 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 4 笔，并保留 3% 现金缓冲，单日亏损达到 HKD 260 即停止扩张。
-- Live pools today / 今日实盘池: US: `MU`, `AMD`, `BABA`, `AVGO`, `NVDA` | HK: `1810.HK`, `3750.HK`, `1024.HK`, `0388.HK`. 今日实盘池如上，按市场分别执行。
-- Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: `EWY`, `COHR`, `BIDU`, `LITE`, `TSM`, `TSLA`, `ORCL` | HK: `2015.HK`, `9888.HK`, `9868.HK`, `9961.HK`, `3690.HK`, `0981.HK`. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
+- Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 5 trade(s) per hour, with a 2% cash reserve and HKD 5000 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 5 笔，并保留 2% 现金缓冲，单日亏损达到 HKD 5000 即停止扩张。
+- Live pools today / 今日实盘池: US: `SNDK`, `AAOI`, `MU`, `AMD`, `RIVN`, `TSLA`, `QCOM`, `BABA`, `META`, `XOM`, `AVGO`, `ORCL`, `LLY` | HK: `0700.HK`, `3750.HK`, `1024.HK`, `1211.HK`, `1810.HK`, `0388.HK`. 今日实盘池如上，按市场分别执行。
+- Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: `LITE`, `COHR`, `EWY`, `BIDU` | HK: `2015.HK`, `9888.HK`, `9868.HK`, `0981.HK`, `9961.HK`, `3690.HK`. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AAOI`, still showed score -0.19, post-fee EV -0.04%, and win probability 40.8%. / dry-run 本地快评估维持 HOLD。top candidates: AAOI:-0.19/-0.04% | SNDK:-0.33/-0.18% | MU:-0.43/-0.28%
+- Latest gate result / 最新门槛结论: 研究代理异常，按失败即 HOLD 保护实盘。 / 研究代理异常，按失败即 HOLD 保护实盘。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AAOI`, still showed score -0.19, post-fee EV -0.04%, and win probability 40.8%. / dry-run 本地快评估维持 HOLD。top candidates: AAOI:-0.19/-0.04% | SNDK:-0.33/-0.18% | MU:-0.43/-0.28%
-- Decision basis / 决策依据: Regime: mixed tape; Path: pre-check guard only; Model: no research model invoked; Purpose: standard review; confidence 0.28. / 市场状态：混合状态；决策链路：仅前置守门；模型：未调用研究模型；目的：常规审查；置信度 0.28。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AAOI` (optical networking) | score -0.19 | post-fee EV -0.04% | win 40.8%; `SNDK` (semiconductor) | score -0.33 | post-fee EV -0.18% | win 56.4%; `MU` (semiconductor) | score -0.43 | post-fee EV -0.28% | win 57.5%. / 共检查 5 只活跃候选。靠前检查结果：`AAOI`（optical networking） | 评分 -0.19 | 扣费后 EV -0.04% | 胜率 40.8%；`SNDK`（半导体） | 评分 -0.33 | 扣费后 EV -0.18% | 胜率 56.4%；`MU`（半导体） | 评分 -0.43 | 扣费后 EV -0.28% | 胜率 57.5%。
-- Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
+- Rationale / 理由: 研究代理异常，按失败即 HOLD 保护实盘。 / 研究代理异常，按失败即 HOLD 保护实盘。
+- Decision basis / 决策依据: Regime: unavailable; Path: standard decision flow; Model: A; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：常规决策链路；模型：A；目的：常规审查；置信度 0.00。
+- Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
+- Watch next / 下一步观察: tiger-pocket-research timed out / 研究代理异常，按失败即 HOLD 保护实盘。
 
 ## Core Rules / 基本规则
 
