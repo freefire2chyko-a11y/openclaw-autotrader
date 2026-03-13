@@ -11,5 +11,7 @@ Each card should show / 每张卡片应展示：
 
 - current holdings with quantity / 当前持仓与数量
 - latest decision status / 最新决策状态
+- newest-first same-day decision timeline / 当日决策时间线（最新在上）
+- detailed decision basis / 详细决策依据
 - latest no-trade rationale / 最新观望理由
 - next watch item / 下一步观察点

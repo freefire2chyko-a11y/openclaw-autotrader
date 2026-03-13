@@ -11,5 +11,7 @@ Each report should include / 每份报告应包含：
 
 - holdings with quantity / 带数量的持仓情况
 - public trade timing and rationale / 公开交易时机与理由
+- newest-first full decision timeline / 当日全部决策时间线（最新在上）
+- detailed decision basis and candidate checks / 详细决策依据与候选检查
 - latest no-trade decision and reason / 最新观望决策与理由
 - daily review and next watch item / 当日复盘与下一步观察点
