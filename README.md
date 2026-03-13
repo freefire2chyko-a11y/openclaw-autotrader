@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-13 14:04:57 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-13 14:06:29 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -22,7 +22,7 @@ Last synced by decision / 决策触发同步时间: `2026-03-13 14:04:57 CST`
 | Current equity / 当前权益 | HKD 4,895.44 |
 | Net PnL / 累计盈亏 | -HKD 104.56 |
 | Open positions / 当前持仓标的 | 1 open: `BABA` |
-| Latest move / 最新动作 | [HK] 已跳过模型决策 |
+| Latest move / 最新动作 | [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会） |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,10 +40,10 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-13 14:04:55 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-13 14:06:28 CST (UTC+08:00)
 - Current book / 当前组合: `BABA`
 - Floating PnL / 当前浮动盈亏: -HKD 26.02
-- Latest decision / 最新决策: [HK] 已跳过模型决策
+- Latest decision / 最新决策: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
 - Next milestone / 下一阶段: Day `5` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-13.md](./docs/public-monitor/2026/2026-03-13.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-03-13.md](./docs/daily-reports/2026/2026-03-13.md)
@@ -53,7 +53,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Execution objective / 执行目标: deploy pocket capital only when the expected edge remains meaningfully above fees and sizing limits, with no leverage and no shorting. 仅在预期优势明显高于手续费且满足仓位上限时动用口袋资金，不加杠杆、不做空。
 - Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 2 trade(s) per hour, with a 20% cash reserve and HKD 120 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 2 笔，并保留 20% 现金缓冲，单日亏损达到 HKD 120 即停止扩张。
 - Live pools today / 今日实盘池: US: `BABA`, `MU`, `MSFT`, `NVDA`, `RIVN`, `AMD` | HK: `1810.HK`, `0388.HK`, `3750.HK`, `1211.HK`, `1024.HK`. 今日实盘池如上，按市场分别执行。
-- Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: `AAOI`, `LITE`, `EWY`, `SNDK`, `TSM`, `COHR`, `TSLA`, `ORCL` | HK: `9888.HK`, `9868.HK`, `0981.HK`, `3690.HK`, `9961.HK`, `2015.HK`. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
+- Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: `AAOI`, `LITE`, `EWY`, `SNDK`, `TSM`, `COHR`, `TSLA`, `ORCL` | HK: `9868.HK`, `9888.HK`, `0981.HK`, `3690.HK`, `9961.HK`, `2015.HK`. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
 - Latest gate result / 最新门槛结论: No HK candidate cleared the live entry bar. The strongest name, `1810.HK`, still showed score -2.98, post-fee EV -2.89%, and win probability 48.2%. / 当前港股活跃池机会评分不足（top_score=-2.98），已跳过本轮决策。
 
