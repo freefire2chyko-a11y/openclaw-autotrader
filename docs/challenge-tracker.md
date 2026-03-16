@@ -11,7 +11,7 @@ A day-by-day public index for the 30-Day OpenClaw AutoTrader Challenge.
 | 4 | 2026-03-13 | Holding the Current | Holding through the session: `BABA` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-13.md) |
 | 5 | 2026-03-14 | Holding the Current | Holding through the session: `BABA` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-14.md) |
 | 6 | 2026-03-15 | Waiting for the Tide | Public session logged / 已记录公开会话 | pending |
-| 7 | 2026-03-16 | Holding the Current | Holding through the session: `BABA` / 会话结束仍在持有 | pending |
+| 7 | 2026-03-16 | Holding the Current | Holding through the session: `BABA` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-16.md) |
 | 8 | 2026-03-17 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 9 | 2026-03-18 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 10 | 2026-03-19 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
