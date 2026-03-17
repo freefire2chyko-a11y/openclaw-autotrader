@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-17 23:53:45 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-18 00:09:05 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 9
-**Total Evidence Points / 累计证据点**: 20
+**Total Evidence Points / 累计证据点**: 21
 
 ## skipped_decision_still_needs_context
 
@@ -38,9 +38,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: MU 仓位曾明显超限，后续应优先按分层减仓规则把风险拉回目标区间。
 **Scope / 作用域**: `MU`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-03-17
-**Dates / 出现日期**: 2026-03-16, 2026-03-17
+**Evidence Count / 证据次数**: 3
+**Last Seen / 最后出现**: 2026-03-18
+**Dates / 出现日期**: 2026-03-16, 2026-03-17, 2026-03-18
 **Tags / 标签**: `symbol:MU, market:us, risk:oversized`
 
 ## us_buy_no_chasing_and_tighter_caps
