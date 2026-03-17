@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-17 12:25:31 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-17 13:09:17 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,34 +14,25 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 9
-**Total Evidence Points / 累计证据点**: 20
+**Total Evidence Points / 累计证据点**: 21
 
 ## skipped_decision_still_needs_context
 
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 4
-**Last Seen / 最后出现**: 2026-03-16
-**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-14, 2026-03-16
+**Evidence Count / 证据次数**: 5
+**Last Seen / 最后出现**: 2026-03-17
+**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-14, 2026-03-16, 2026-03-17
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## sync_error_must_be_sanitized
 
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 3
-**Last Seen / 最后出现**: 2026-03-16
-**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-16
-**Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
-
-## missed_opportunity_1211.HK
-
-**Lesson / 教训**: 1211.HK 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `1211.HK`
-**Evidence Count / 证据次数**: 2
+**Evidence Count / 证据次数**: 4
 **Last Seen / 最后出现**: 2026-03-17
-**Dates / 出现日期**: 2026-03-16, 2026-03-17
-**Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
+**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-16, 2026-03-17
+**Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## positive_followthrough_buy_1211.HK
 
@@ -87,6 +78,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-13
 **Dates / 出现日期**: 2026-03-12, 2026-03-13
 **Tags / 标签**: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
+
+## missed_opportunity_1211.HK
+
+**Lesson / 教训**: 1211.HK 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `1211.HK`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-16
+**Dates / 出现日期**: 2026-03-16
+**Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
 
 ## event_market_gate_first
 

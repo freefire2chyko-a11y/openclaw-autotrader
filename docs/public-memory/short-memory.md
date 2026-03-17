@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-03-17 12:25:31 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-17 13:09:17 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -160,16 +160,16 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-03-17
 
-**Summary / 摘要**: 2026-03-17 共 1 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,860.85，对账累计盈亏 HKD -139.15，对账未实现盈亏 HKD -57.99。
+**Summary / 摘要**: 2026-03-17 共 2 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,860.85，对账累计盈亏 HKD -139.15，对账未实现盈亏 HKD -57.99。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 1 |
+| Decision Count / 决策次数 | 2 |
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 9 |
-| Latest Decision / 最新决策 | [US] HOLD 无 |
+| Benchmarks / 基准快照 | 11 |
+| Latest Decision / 最新决策 | [HK] 跳过决策 |
 | End Equity / 结束权益 | HKD 4,860.85 |
 | End Net PnL / 结束累计盈亏 | HKD -139.15 |
 | End Unrealized PnL / 结束未实现盈亏 | HKD -57.99 |
@@ -179,8 +179,11 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 **Lessons Learned / 提取教训**
 
-- **missed_opportunity_1211.HK**: 1211.HK 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-  - Tags / 标签: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
+- **sync_error_must_be_sanitized**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
+  - Tags / 标签: `ops:github-sync, ux:error-sanitization, memory:public-output`
+
+- **skipped_decision_still_needs_context**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
+  - Tags / 标签: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 - **positive_followthrough_buy_1211.HK**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
   - Tags / 标签: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
