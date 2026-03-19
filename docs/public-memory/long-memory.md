@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-19 22:48:05 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-19 22:56:18 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -70,6 +70,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-03-12, 2026-03-13
 **Tags / 标签**: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
 
+## sell_too_early_BABA
+
+**Lesson / 教训**: BABA 最近卖出后继续上行，后续止盈/降仓需要更重视趋势延续和分批退出。
+**Scope / 作用域**: `BABA`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-19
+**Dates / 出现日期**: 2026-03-19
+**Tags / 标签**: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:china_internet, theme:中概, theme:电商, theme:云, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:macro_rates`
+
 ## missed_opportunity_1211.HK
 
 **Lesson / 教训**: 1211.HK 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-14
 **Dates / 出现日期**: 2026-03-14
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
-
-## cash_reserve_block
-
-**Lesson / 教训**: 现金不足会直接阻断后续决策与轮动，必须保留至少20%机动现金。
-**Scope / 作用域**: `portfolio`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-11
-**Dates / 出现日期**: 2026-03-11
-**Tags / 标签**: `portfolio:cash, risk:reserve`
