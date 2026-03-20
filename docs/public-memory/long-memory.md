@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-20 23:53:38 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-21 00:05:21 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 32
+**Total Evidence Points / 累计证据点**: 33
 
 ## skipped_decision_still_needs_context
 
@@ -38,9 +38,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
 **Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 3
-**Last Seen / 最后出现**: 2026-03-20
-**Dates / 出现日期**: 2026-03-14, 2026-03-19, 2026-03-20
+**Evidence Count / 证据次数**: 4
+**Last Seen / 最后出现**: 2026-03-21
+**Dates / 出现日期**: 2026-03-14, 2026-03-19, 2026-03-20, 2026-03-21
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## us_buy_no_chasing_and_tighter_caps
@@ -79,6 +79,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-03-12, 2026-03-13
 **Tags / 标签**: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
 
+## missed_opportunity_RIVN
+
+**Lesson / 教训**: RIVN 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `RIVN`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-21
+**Dates / 出现日期**: 2026-03-21
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, event:market_block, confirm:risk_on, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
+
 ## sell_too_early_BABA
 
 **Lesson / 教训**: BABA 最近卖出后继续上行，后续止盈/降仓需要更重视趋势延续和分批退出。
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-16
 **Dates / 出现日期**: 2026-03-16
 **Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
-
-## positive_followthrough_buy_1211.HK
-
-**Lesson / 教训**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
-**Scope / 作用域**: `1211.HK`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-16
-**Dates / 出现日期**: 2026-03-16
-**Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
